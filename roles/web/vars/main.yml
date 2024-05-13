@@ -1,0 +1,17 @@
+---
+# vars file for web
+package: nginx
+version: latest
+number: 3
+state: started
+state2: restarted
+pkg_list:
+  - nginx
+  - curl
+  - vim
+list:
+ 
+  - file.css
+  - file.js
+
+my_message: hello

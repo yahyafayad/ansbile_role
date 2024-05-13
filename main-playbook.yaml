@@ -1,0 +1,4 @@
+- name: my play with conditions
+  hosts: Fayad
+  roles: 
+    - web 
